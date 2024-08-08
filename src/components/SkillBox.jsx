@@ -16,7 +16,7 @@ const SkillBox = () => {
 
   return (
     <ul
-      className="flex list-none flex-wrap gap-2 p-0"
+      className="flex list-none flex-wrap justify-center gap-3 md:justify-normal"
       role="list"
       aria-label="Skills"
     >

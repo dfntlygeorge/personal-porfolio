@@ -1,12 +1,14 @@
 import PropTypes from "prop-types";
 
-const Button = ({ buttonName, isLarge, href }) => {
+const Button = ({ buttonName, isLarge, href, target, rel }) => {
   return (
     <a
       href={href}
-      className={`inline-block transform rounded-md bg-teal-600 dark:bg-teal-700 ${isLarge ? "px-16 text-lg" : "px-12"} shadow-teal-subtle hover:shadow-teal-subtle py-3 font-bold tracking-wide text-white transition duration-300 ease-in-out hover:-translate-y-1 dark:shadow-teal-700/50 dark:hover:shadow-teal-700/70`}
+      className={`inline-block transform rounded-md bg-teal-600 dark:bg-teal-700 ${isLarge ? "px-16 text-lg" : "px-12"} py-3 font-bold tracking-wide text-white shadow-teal-subtle transition duration-300 ease-in-out hover:-translate-y-1 hover:shadow-teal-subtle dark:shadow-teal-700/50 dark:hover:shadow-teal-700/70`}
       role="button"
       aria-label={buttonName}
+      target={target}
+      rel={rel}
     >
       {buttonName}
     </a>
@@ -17,6 +19,8 @@ Button.propTypes = {
   buttonName: PropTypes.string.isRequired,
   isLarge: PropTypes.bool,
   href: PropTypes.string,
+  target: PropTypes.string,
+  rel: PropTypes.string,
 };
 
 Button.defaultProps = {

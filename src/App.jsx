@@ -1,20 +1,21 @@
+// src/App.jsx
+
+import Header from "./components/Header";
+import Main from "./components/Main";
 import Footer from "./components/Footer";
-import Button from "./components/Button";
-import Contact from "./components/Contact";
-import SectionTitle from "./components/SectionTitle";
-import SkillBox from "./components/SkillBox";
-import DarkModeSwitch from "./components/DarkModeSwitch";
+import SideSocials from "./components/SideSocials";
+import { ThemeProvider } from "./components/ThemeContext"; // Import ThemeProvider
 
 function App() {
   return (
-    <div className="min-h-screen">
-      <Button />
-      <Contact />
-      <SectionTitle title="ABOUT ME" desc="Who am I?" />
-      <SkillBox />
-      <Footer />
-      <DarkModeSwitch />
-    </div>
+    <ThemeProvider>
+      <div className="min-h-screen">
+        <Header />
+        <Main />
+        <Footer />
+        <SideSocials />
+      </div>
+    </ThemeProvider>
   );
 }
 
