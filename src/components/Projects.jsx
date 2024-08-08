@@ -6,25 +6,25 @@ const Projects = () => {
       title: "Samsung Landing Page Clone",
       description:
         "I crafted this Samsung landing page clone to showcase my skills in creating responsive, visually accurate web designs.",
-      imgSrc: "/public/assets/samsung.png",
+      imgSrc: "/assets/samsung.png",
     },
     {
       title: "News App with Real-Time Updates",
       description:
         "I developed this news app using NewsAPI to demonstrate my ability to integrate and display live news data effectively.",
-      imgSrc: "/public/assets/newsapp.png",
+      imgSrc: "/assets/newsapp.png",
     },
     {
       title: "Enhanced Vivamax Landing Page",
       description:
         "I improved this Vivamax landing page to exhibit my skills in modern web design and responsive layouts.",
-      imgSrc: "/public/assets/vivamax.png",
+      imgSrc: "/assets/vivamax.png",
     },
     {
       title: "Starbucks Landing Page Clone",
       description:
         "I recreated this Starbucks landing page to highlight my proficiency in mimicking complex, brand-centric web designs.",
-      imgSrc: "/public/assets/starbucks.png",
+      imgSrc: "/assets/starbucks.png",
     },
   ];
 

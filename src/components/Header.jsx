@@ -8,12 +8,12 @@ const Header = () => {
         <a href="#hero" className="group flex items-center gap-4">
           <div className="relative aspect-square h-14 w-14 cursor-pointer overflow-hidden rounded-full">
             <img
-              src="/public/assets/cat.jpg"
+              src="/assets/cat.jpg"
               alt="Profile Picture"
               className="h-full w-full object-cover transition-opacity duration-300 ease-in-out group-hover:opacity-0"
             />
             <img
-              src="/public/assets/cathover.jpg"
+              src="/assets/cathover.jpg"
               alt="Profile Picture"
               className="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100"
             />
