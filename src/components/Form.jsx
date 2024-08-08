@@ -43,7 +43,7 @@ const Form = () => {
           setFormErrors({});
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          console.log("FAILED...", error);
         },
       );
   };
