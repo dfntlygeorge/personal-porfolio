@@ -30,9 +30,12 @@ const Form = () => {
     }
 
     emailjs
-      .sendForm("service_5yyln49", "template_otewqtn", form.current, {
-        publicKey: "Qd7Kd8YWCCDNeTizp",
-      })
+      .sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        form.current,
+        import.meta.env.VITE_EMAILJS_USER_ID,
+      )
       .then(
         () => {
           console.log("SUCCESS!");
@@ -88,7 +91,5 @@ const Form = () => {
     </form>
   );
 };
-
-// Reusable Field component
 
 export default Form;
