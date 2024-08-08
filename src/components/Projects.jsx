@@ -14,12 +14,12 @@ const Projects = () => {
         "I developed this news app using NewsAPI to demonstrate my ability to integrate and display live news data effectively.",
       imgSrc: "/assets/newsapp.png",
     },
-    {
-      title: "Enhanced Vivamax Landing Page",
-      description:
-        "I improved this Vivamax landing page to exhibit my skills in modern web design and responsive layouts.",
-      imgSrc: "/assets/vivamax.png",
-    },
+    // {
+    //   title: "Enhanced Vivamax Landing Page",
+    //   description:
+    //     "I improved this Vivamax landing page to exhibit my skills in modern web design and responsive layouts.",
+    //   imgSrc: "/assets/vivamax.png",
+    // },
     {
       title: "Starbucks Landing Page Clone",
       description:
