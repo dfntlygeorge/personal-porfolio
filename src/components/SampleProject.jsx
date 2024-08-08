@@ -20,6 +20,7 @@ const SampleProject = ({ project }) => {
           buttonName="VIEW PROJECT"
           target="_blank"
           rel="noopener noreferrer"
+          href={project.href}
         />
       </div>
     </div>
@@ -31,6 +32,7 @@ SampleProject.propTypes = {
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     imgSrc: PropTypes.string.isRequired,
+    href: PropTypes.string.isRequired,
   }).isRequired,
 };
 

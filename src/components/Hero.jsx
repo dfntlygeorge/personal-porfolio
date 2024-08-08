@@ -15,7 +15,7 @@ const Hero = () => {
           approve of.
         </p>
         <div className="flex justify-center">
-          <Button buttonName="SEE MY WORKS" />
+          <Button buttonName="SEE MY WORKS" href={"#projects"} />
         </div>
       </div>
     </section>

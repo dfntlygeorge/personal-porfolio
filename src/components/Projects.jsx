@@ -7,12 +7,14 @@ const Projects = () => {
       description:
         "I crafted this Samsung landing page clone to showcase my skills in creating responsive, visually accurate web designs.",
       imgSrc: "/assets/samsung.png",
+      href: "https://dfntlygeorge.github.io/a-project-clone-of-samsung-home-page/",
     },
     {
       title: "News App with Real-Time Updates",
       description:
         "I developed this news app using NewsAPI to demonstrate my ability to integrate and display live news data effectively.",
       imgSrc: "/assets/newsapp.png",
+      href: "https://dfntlygeorge.github.io/news-site/public/index.html",
     },
     // {
     //   title: "Enhanced Vivamax Landing Page",
@@ -25,6 +27,7 @@ const Projects = () => {
       description:
         "I recreated this Starbucks landing page to highlight my proficiency in mimicking complex, brand-centric web designs.",
       imgSrc: "/assets/starbucks.png",
+      href: "https://dfntlygeorge.github.io/a-project-clone-of-starbucks/",
     },
   ];
 
