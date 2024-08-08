@@ -10,8 +10,9 @@ const Hero = () => {
           HEY, I&apos;M KONRADS DONAYRE
         </h1>
         <p className="text-xl md:px-12">
-          Frontend focused Web Developer building the Frontend of Websites and
-          Web Applications that leads to the success of the overall product.
+          Building websites by day, dreaming about pasta and cats by night. I
+          turn code into sleek, user-friendly designs that even my cat would
+          approve of.
         </p>
         <div className="flex justify-center">
           <Button buttonName="SEE MY WORKS" />

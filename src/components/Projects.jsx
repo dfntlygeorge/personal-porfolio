@@ -38,7 +38,7 @@ const Projects = () => {
     >
       <SectionTitle
         title="PROJECTS"
-        desc="Here you will find some of the personal and clients projects that I created with each project containing its own case study"
+        desc="Check out my projects that highlight my front-end development skills and use of modern technologies."
         className={"my-0 mt-20 sm:mt-24"}
       />
       {projects.map((project, index) => (

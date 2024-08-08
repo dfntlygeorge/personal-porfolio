@@ -11,7 +11,7 @@ const About = () => {
     >
       <SectionTitle
         title="ABOUT ME"
-        desc="Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology"
+        desc="Learn about my background, work, and current programming skills."
       />
       <div className="container mx-auto mt-2 flex flex-col gap-12 text-center md:mt-8 md:flex-row md:gap-8 md:text-left">
         <div className="flex-[1.3] md:ml-16 lg:flex-1">
