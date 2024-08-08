@@ -12,9 +12,9 @@ export default {
       },
       backgroundImage: {
         "hero-light":
-          "linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url('./assets/common-bg.svg')",
+          "linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url('/public/assets/common-bg.svg')",
         "hero-dark":
-          "linear-gradient(to right, rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.9)),url('./assets/common-bg.svg')",
+          "linear-gradient(to right, rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.9)),url('/public/assets/common-bg.svg')",
       },
     },
   },
