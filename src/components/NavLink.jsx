@@ -6,7 +6,7 @@ const NavLink = ({ href, ariaLabel, children, className, onClick }) => (
       href={href}
       aria-label={ariaLabel}
       className={`font-bold transition-colors duration-300 ease-in-out hover:text-teal-600 ${className}`}
-      onClick={onClick} // Apply the onClick handler here
+      onClick={onClick}
     >
       {children}
     </a>
@@ -18,12 +18,12 @@ NavLink.propTypes = {
   ariaLabel: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
   className: PropTypes.string,
-  onClick: PropTypes.func, // Define the onClick prop
+  onClick: PropTypes.func,
 };
 
 NavLink.defaultProps = {
   className: "",
-  onClick: () => {}, // Default to an empty function
+  onClick: () => {},
 };
 
 export default NavLink;

@@ -11,28 +11,39 @@ const DropdownNav = () => {
     { href: "#contact", ariaLabel: "contact", text: "CONTACT" },
   ];
 
+  // State to keep track of whether the dropdown is open or closed
   const [isOpen, setIsOpen] = useState(false);
+
+  // Reference to the dropdown element
   const dropdownRef = useRef(null);
 
+  // Function to toggle the dropdown open or closed
   const toggleDropdown = () => {
     setIsOpen((prevState) => !prevState);
   };
 
+  // Function to handle clicks outside the dropdown
   const handleClickOutside = (event) => {
+    // If the click is outside the dropdown element, close the dropdown
     if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
       setIsOpen(false);
     }
   };
 
+  // Effect to add/remove event listeners and handle overflow on mount/unmount
   useEffect(() => {
+    // If the dropdown is open, add a click event listener to the document
+    // and add the overflow-hidden class to the body
     if (isOpen) {
       document.addEventListener("mousedown", handleClickOutside);
       document.body.classList.add("overflow-hidden"); // Add overflow-hidden class
     } else {
+      // If the dropdown is closed, remove the click event listener and remove the overflow-hidden class
       document.removeEventListener("mousedown", handleClickOutside);
       document.body.classList.remove("overflow-hidden"); // Remove overflow-hidden class
     }
 
+    // Clean up on component unmount by removing the event listener and removing the overflow-hidden class
     // Clean up on component unmount
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);

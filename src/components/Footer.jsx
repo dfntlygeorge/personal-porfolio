@@ -9,9 +9,7 @@ const Footer = () => {
           <div className="text-center md:w-3/4 md:pl-6 md:text-left lg:w-1/2">
             <h3 className="text-xl font-bold">KONRADS DONAYRE</h3>
             <p className="mt-4 text-sm">
-              A Frontend focused Web Developer building the Frontend of Websites
-              and Web Applications that leads to the success of the overall
-              product.
+              Pasta Enthusiast. Cat Cuddle Addict. Daydreamer.
             </p>
           </div>
           <div className="text-center md:text-left">
