@@ -12,6 +12,12 @@ const SkillBox = () => {
     "Terminal",
     "SASS",
     "MongoDB",
+    "Testing",
+    "TypeScript",
+    "Node",
+    "Express",
+    "Next",
+    "Prisma",
   ];
 
   return (
